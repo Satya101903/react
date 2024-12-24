@@ -18,7 +18,7 @@ function Notfound() {
         <p style={{ color: '#6c757d', marginBottom: '1.5rem' }}>
           The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.
         </p>
-        <Link to="/">
+        <Link to="/react">
           <button
             className="btn btn-primary"
             style={{

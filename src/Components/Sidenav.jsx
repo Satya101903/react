@@ -44,14 +44,14 @@ function Sidenav() {
               transition: 'background-color 0.3s, transform 0.3s',
             }}
             onMouseOver={(e) => {
-              e.target.style.backgroundColor = '#F3F0B0'; // Light hover background
-              e.target.style.color = '#6A4C93'; // Dark text color on hover
-              e.target.style.transform = 'translateX(5px)'; // Slight movement
+              e.target.style.backgroundColor = '#F3F0B0'; 
+              e.target.style.color = '#6A4C93'; 
+              e.target.style.transform = 'translateX(5px)'; 
             }}
             onMouseOut={(e) => {
-              e.target.style.backgroundColor = 'transparent'; // Revert to original
-              e.target.style.color = '#F3F0B0'; // Original text color
-              e.target.style.transform = 'translateX(0)'; // Remove movement
+              e.target.style.backgroundColor = 'transparent'; 
+              e.target.style.color = '#F3F0B0'; 
+              e.target.style.transform = 'translateX(0)'; 
             }}
           >
             Home
@@ -71,14 +71,14 @@ function Sidenav() {
               transition: 'background-color 0.3s, transform 0.3s',
             }}
             onMouseOver={(e) => {
-              e.target.style.backgroundColor = '#F3F0B0'; // Light hover background
-              e.target.style.color = '#6A4C93'; // Dark text color on hover
-              e.target.style.transform = 'translateX(5px)'; // Slight movement
+              e.target.style.backgroundColor = '#F3F0B0'; 
+              e.target.style.color = '#6A4C93'; 
+              e.target.style.transform = 'translateX(5px)'; 
             }}
             onMouseOut={(e) => {
-              e.target.style.backgroundColor = 'transparent'; // Revert to original
-              e.target.style.color = '#F3F0B0'; // Original text color
-              e.target.style.transform = 'translateX(0)'; // Remove movement
+              e.target.style.backgroundColor = 'transparent'; 
+              e.target.style.color = '#F3F0B0'; 
+              e.target.style.transform = 'translateX(0)'; 
             }}
           >
             Skincare
@@ -98,14 +98,14 @@ function Sidenav() {
               transition: 'background-color 0.3s, transform 0.3s',
             }}
             onMouseOver={(e) => {
-              e.target.style.backgroundColor = '#F3F0B0'; // Light hover background
-              e.target.style.color = '#6A4C93'; // Dark text color on hover
-              e.target.style.transform = 'translateX(5px)'; // Slight movement
+              e.target.style.backgroundColor = '#F3F0B0'; 
+              e.target.style.color = '#6A4C93'; 
+              e.target.style.transform = 'translateX(5px)'; 
             }}
             onMouseOut={(e) => {
-              e.target.style.backgroundColor = 'transparent'; // Revert to original
-              e.target.style.color = '#F3F0B0'; // Original text color
-              e.target.style.transform = 'translateX(0)'; // Remove movement
+              e.target.style.backgroundColor = 'transparent'; 
+              e.target.style.color = '#F3F0B0'; 
+              e.target.style.transform = 'translateX(0)';
             }}
           >
             Haircare
@@ -125,14 +125,14 @@ function Sidenav() {
               transition: 'background-color 0.3s, transform 0.3s',
             }}
             onMouseOver={(e) => {
-              e.target.style.backgroundColor = '#F3F0B0'; // Light hover background
-              e.target.style.color = '#6A4C93'; // Dark text color on hover
-              e.target.style.transform = 'translateX(5px)'; // Slight movement
+              e.target.style.backgroundColor = '#F3F0B0'; 
+              e.target.style.color = '#6A4C93'; 
+              e.target.style.transform = 'translateX(5px)';
             }}
             onMouseOut={(e) => {
-              e.target.style.backgroundColor = 'transparent'; // Revert to original
-              e.target.style.color = '#F3F0B0'; // Original text color
-              e.target.style.transform = 'translateX(0)'; // Remove movement
+              e.target.style.backgroundColor = 'transparent'; 
+              e.target.style.color = '#F3F0B0'; 
+              e.target.style.transform = 'translateX(0)'; 
             }}
           >
             Fragrance
@@ -142,7 +142,7 @@ function Sidenav() {
 
       <div style={{ marginTop: '3rem' }}>
         <Link
-          to="/"
+          to="/react"
           style={{
             textDecoration: 'none',
             color: '#F3F0B0',
