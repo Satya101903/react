@@ -24,7 +24,7 @@ function Signup() {
       return;
     }
     alert('Signup Successful!');
-    navigate('/');
+    navigate('/react');
   };
 
   return (
@@ -139,7 +139,7 @@ function Signup() {
         </form>
         <p className="text-center mt-3">
           Already have an account?{' '}
-          <Link to="/login" className="text-decoration-none" style={{ color: 'purple' }}>
+          <Link to="/react" className="text-decoration-none" style={{ color: 'purple' }}>
             Login
           </Link>
         </p>
